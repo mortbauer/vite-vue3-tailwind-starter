@@ -45,3 +45,4 @@ docker run --rm -p 3000:3000 -v /home/node/app/node_modules -v $PWD:/home/node/a
 - [vue-tailwindcss-cdn](https://github.com/web2033/vue-tailwindcss-cdn) (a single HTML file with CDN links)
 - [CodePen Template](https://codepen.io/web2033/pen/QWNbwxY) with a similar stack (Vue 3.x + Tailwind 2.x + Inter var font)
 - [base.css](https://github.com/web2033/base.css) (base styles for Tailwind CSS and other projects as an NPM package)
+- [probably you don't need vuex](https://medium.com/@mario.brendel1990/vue-3-the-new-store-a7569d4a546f)
