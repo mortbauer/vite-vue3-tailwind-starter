@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite --open",
+    "dev": "vite",
     "build": "cross-env NODE_ENV=production vite build",
-    "serve": "ws --directory dist --spa index.html --open"
+    "serve": "ws --directory dist --spa index.html"
   },
   "dependencies": {
     "tailwindcss": "^2.0.3",

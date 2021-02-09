@@ -28,6 +28,19 @@ yarn build
 yarn serve
 ```
 
+### Develop with Docker
+To have consistent environment it is good to already use docker straight away
+in development.
+
+To do so just build the image:
+```
+docker build --tag mydev .
+```
+and run with:
+```
+docker run --rm -p 3000:3000 -v /home/node/app/node_modules -v $PWD:/home/node/app mydev
+```
+
 #### Bonus links
 - [vue-tailwindcss-cdn](https://github.com/web2033/vue-tailwindcss-cdn) (a single HTML file with CDN links)
 - [CodePen Template](https://codepen.io/web2033/pen/QWNbwxY) with a similar stack (Vue 3.x + Tailwind 2.x + Inter var font)
